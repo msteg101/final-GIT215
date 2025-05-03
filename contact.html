@@ -1,0 +1,84 @@
+<!--COMPANY NAME: Blue Skies & Wonder Eyes
+    #417FA6
+    #86BEE1
+    #1C2426
+    #B8D3D9
+    #466F6E
+        background-color: #466f6e;
+    background-image: url("https://www.transparenttextures.com/patterns/white-plaster.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <meta name="author" content="Mackenzie Stegink">
+        <meta name="description" content="Contact for Blue Skies & Wonder Eyes Resort">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fleur+De+Leah&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="top">
+                <h1>Blue Skies &amp; Wonder Eyes</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accomms.html">Accommodations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="images/swiss-valley.jpg" alt="">
+        </header>
+
+        <main>
+            <h2>Contact Us</h2>
+            <div id="instruct">
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required fields marked with a &#8727;</p>
+            </div>
+
+            <section id="grid1">
+                <img src="images/swiss-peak.jpg" alt="">
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2023 Blue Skies &amp; Wonder Eyes</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
